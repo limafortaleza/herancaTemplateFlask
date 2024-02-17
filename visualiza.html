@@ -1,0 +1,13 @@
+{% extends 'template.html' %}
+{% block title %}Visualizar{% endblock %}
+{% block body %} 
+
+    <h1 class="dadoscadastrados">Eventos Cadastrados</h1>
+    <ul>
+        {% for dado in lista %}
+        <li>Atividade: {{ dado.nome }}
+            Data: {{ dado.data }}
+            Descição: {{dado.descricao}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

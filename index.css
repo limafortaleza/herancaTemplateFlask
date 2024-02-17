@@ -1,0 +1,48 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: #ac2f2f;
+    gap:50px;
+    color: aliceblue;
+    
+
+}
+
+.exibirdados{
+    font: 50px;
+    color: aliceblue;
+}
+
+h1{
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid;
+    
+}
+
+form{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
